@@ -54,3 +54,15 @@ padding-right: 2rem;
     font-size: 1.2rem;
     font-weight: 300;
 }
+@media screen and (max-wid : 600x) {
+    font-content{
+        flex-wrap: wrap;
+    }
+    .features-content .features-right{
+        width: 100%;
+    }
+    .features-content .features-left{
+        width: 100%;
+    }
+
+}
