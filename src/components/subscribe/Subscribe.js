@@ -1,4 +1,5 @@
 import React from 'react';
+import './Subscribe.css'
 
 const Subscribe = () => {
   return (
@@ -10,25 +11,17 @@ const Subscribe = () => {
           <input type='text' placeholder='ایمیل خود را وارد کنید...'></input>
         </form>
         <div className='socials'>
-          <div className='social-icon'>
-           
-            <FaInstagram/>
-           
+          <div className='social-icon'> 
+            <FaInstagram/> 
           </div>
-          <div className='social-icon'>
-            
+          <div className='social-icon'>  
             <FaTwitter/>
-           
           </div>
-          <div className='social-icon'>
-           
+          <div className='social-icon'>  
             <FaFacebook/>
-            
           </div>
           <div className='social-icon'>
-       
             <TiSocialGooglePlus/>
-          
           </div>
         </div>
      </div>
