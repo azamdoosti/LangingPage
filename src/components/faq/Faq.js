@@ -7,7 +7,7 @@ function Faq() {
   return (
   <section id='faq'>
    <div className='container faq'>
-     <div className='faq-title'>
+     <div className= 'faq-title'>
        <MdOutlineLibraryboks color="orangeRed" size={30}/>
       <h2>سوالات متداول  </h2>
       <p> لورم ایپسوم متن ساختگی</p>
